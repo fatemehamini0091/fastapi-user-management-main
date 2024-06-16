@@ -2,12 +2,6 @@
 
 from sqlalchemy.orm import Session
 
-# # Import the mock settings for testing purposes
-# try:
-#     pass
-# except:
-#     pass
-
 from fastapi_user_management.crud.crud_base import CRUDBase
 from fastapi_user_management.models.dicom import DicomModel
 from fastapi_user_management.schemas.dicom import BaseDICOMCreate, DICOMCreate

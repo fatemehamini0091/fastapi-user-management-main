@@ -10,12 +10,7 @@ from sqlalchemy.orm import Session
 
 from fastapi_user_management import crud
 
-# Import the mock settings for testing purposes
-# try:
 from fastapi_user_management.config import SETTINGS
-
-# except:
-#     from tests.mock_settings import mock_settings as SETTINGS
 from fastapi_user_management.core.database import get_db
 from fastapi_user_management.models.user import UserModel
 from fastapi_user_management.routes import auth
